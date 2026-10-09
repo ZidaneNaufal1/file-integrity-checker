@@ -24,3 +24,5 @@ jobs:
         run: python -m py_compile integrity_checker.py
       - name: Run tests
         run: python -m unittest discover -v
+      - name: Run safe demo
+        run: python examples/run_demo.py

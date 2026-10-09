@@ -47,6 +47,17 @@ python integrity_checker.py check ./important-folder \
   --json
 ```
 
+## Reproducible Demo
+
+```bash
+python examples/run_demo.py
+```
+
+The demonstration creates disposable files, records a manifest, verifies the
+clean state, then makes controlled changes and proves that changed, missing,
+and added files are identified. It runs against a temporary directory and is
+also executed by GitHub Actions.
+
 ## Exit Codes
 
 | Code | Meaning |
