@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+integrity-manifest.json
+integrity-report.json
+.tmp-tests/
