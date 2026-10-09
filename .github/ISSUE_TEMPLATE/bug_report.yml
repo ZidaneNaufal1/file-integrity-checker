@@ -1,0 +1,46 @@
+name: Bug report
+description: Report reproducible integrity-check behavior.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Use disposable files and remove private paths or hashes before posting.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v1.0.0 or commit SHA
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Ubuntu 24.04, Python 3.13
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy check
+      options:
+        - label: I used disposable files and removed private paths, hashes, and metadata.
+          required: true

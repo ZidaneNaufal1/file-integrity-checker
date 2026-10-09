@@ -8,6 +8,8 @@ and [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 
 - Reproducible clean-and-changed integrity demo executed by CI.
+- Structured bug, feature, and pull request templates.
+- Security reporting guidance and a public v1.1.0 roadmap issue.
 
 ## [1.0.0] - 2026-10-09
 

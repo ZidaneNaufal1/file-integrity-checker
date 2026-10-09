@@ -89,6 +89,16 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the test
 and pull request workflow. Release history is maintained in
 [CHANGELOG.md](CHANGELOG.md).
 
+## Roadmap
+
+The next focused improvement is tracked in
+[v1.1.0: explicit exclusion patterns](https://github.com/ZidaneNaufal1/file-integrity-checker/issues/1).
+
+## Security
+
+See [SECURITY.md](SECURITY.md). Public reports must not contain private paths,
+file hashes, credentials, or sensitive manifests.
+
 ## License
 
 MIT License. See [LICENSE](LICENSE).
